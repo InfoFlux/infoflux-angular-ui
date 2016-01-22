@@ -102,6 +102,7 @@
     <Content Include="dist\if.ui.min.js" />
     <Content Include="dist\templates.js" />
     <Content Include="gulpfile.js" />
+    <Content Include="if.ui.js" />
     <Content Include="if.ui\if.ui.css">
       <DependentUpon>if.ui.less</DependentUpon>
     </Content>
