@@ -1,15 +1,21 @@
 {
 
   "name": "infoflux-angular-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/if.ui.js",
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_modules",
     "app",
     "Content",
-    "Scripts"
+    "Scripts",
+    "compilerconfig.json",
+    "gulpfile.js",
+    "index.html",
+    "package.json",
+    "packages.config",
+    "web.config",
+    "web.config.*"
   ],
 
   "private": true,
