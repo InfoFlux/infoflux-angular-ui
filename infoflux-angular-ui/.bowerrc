@@ -1,10 +1,3 @@
 {
-  "directory": "bower_modules",
-  "registry": {
-    "search": [
-      "https://www.myget.org/F/infoflux/bower/",
-      "https://bower.herokuapp.com"
-    ],
-    "register": "https://xavierk:InfoFlux$@www.myget.org/F/infoflux/bower/"
-  }
+  "directory": "bower_modules"
 }
