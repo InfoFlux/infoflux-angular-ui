@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Content/bootstrap/bootstrap.css",
+    "inputFile": "Content/bootstrap/bootstrap.less"
+  },
+  {
+    "outputFile": "Content/Site.css",
+    "inputFile": "Content/Site.less"
+  },
+  {
+    "outputFile": "if.ui/if.ui.css",
+    "inputFile": "if.ui/if.ui.less"
+  }
+]

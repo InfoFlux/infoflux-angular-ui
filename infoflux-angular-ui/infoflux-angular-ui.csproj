@@ -77,9 +77,35 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.js" />
+    <Content Include="app\controllers\appController.js" />
+    <Content Include="app\controllers\homeController.js" />
+    <Content Include="app\controllers\listviewController.js" />
+    <Content Include="app\views\home.html" />
+    <Content Include="app\views\listview.html" />
+    <Content Include="Content\bootstrap\bootstrap.css">
+      <DependentUpon>bootstrap.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Site.css">
+      <DependentUpon>Site.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.min.css">
+      <DependentUpon>Site.css</DependentUpon>
+    </Content>
+    <Content Include="if.ui\if.ui.css">
+      <DependentUpon>if.ui.less</DependentUpon>
+    </Content>
+    <Content Include="if.ui\if.ui.min.css">
+      <DependentUpon>if.ui.css</DependentUpon>
+    </Content>
     <Content Include="Index.html" />
     <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
@@ -157,11 +183,21 @@
     <Content Include="Content\bootstrap\bootstrap.less" />
     <Content Include="Content\bootstrap\badges.less" />
     <Content Include="Content\bootstrap\alerts.less" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="Content\Site.less" />
+    <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="if.ui\if.ui.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="if.ui\if.ui.js" />
+    <Content Include="if.ui\listview\if.ui.listview.js" />
+    <Content Include="if.ui\listview\listview.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

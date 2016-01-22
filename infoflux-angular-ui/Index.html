@@ -1,10 +1,37 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="app" ng-controller="appController">
 <head>
+    <link href="Content/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="if.ui/if.ui.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
     <title></title>
 	<meta charset="utf-8" />
 </head>
 <body>
-    Hello
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom: 0">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/#/">InfoFlux AngularJs</a>
+        </div>
+    </nav>
+    <div ng-view></div>
+    <script type="text/javascript" src="Scripts/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="Scripts/angular.js"></script>
+    <script type="text/javascript" src="Scripts/angular-route.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.js"></script>
+
+    <script type="text/javascript" src="if.ui/if.ui.js"></script>
+    <script type="text/javascript" src="if.ui/listview/if.ui.listview.js"></script>
+
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/controllers/appController.js"></script>
+    <script type="text/javascript" src="app/controllers/homeController.js"></script>
+    <script type="text/javascript" src="app/controllers/listviewController.js"></script>
+
 </body>
 </html>
