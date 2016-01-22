@@ -1,7 +1,7 @@
 {
 
   "name": "infoflux-angular-ui",
-  "main": "./dist/if.ui.js",
+  "main": "dist/if.ui.js",
   "ignore": [
     "node_modules",
     "bower_modules",
@@ -14,7 +14,8 @@
     "package.json",
     "packages.config",
     "web.config",
-    "web.config.*"
+    "web.debug.config",
+    "web.release.config"
   ],
 
   "private": true,
