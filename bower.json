@@ -2,6 +2,7 @@
   "name": "infoflux-angular-ui",
   "main": [ "infoflux-angular-ui/dist/if.ui.js" ],
   "ignore": [
+    "**/.*",
     "infoflux-angular-ui/node_modules",
     "infoflux-angular-ui/bower_modules",
     "infoflux-angular-ui/app",
