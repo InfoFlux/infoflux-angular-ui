@@ -1,21 +1,10 @@
 {
   "name": "infoflux-angular-ui",
-  "main": [ "infoflux-angular-ui/dist/if.ui.js" ],
+  "main": [ "if.ui.js" ],
   "ignore": [
     "**/.*",
-    "infoflux-angular-ui/node_modules",
-    "infoflux-angular-ui/bower_modules",
-    "infoflux-angular-ui/app",
-    "infoflux-angular-ui/Content",
-    "infoflux-angular-ui/Scripts",
-    "infoflux-angular-ui/compilerconfig.json",
-    "infoflux-angular-ui/gulpfile.js",
-    "infoflux-angular-ui/index.html",
-    "infoflux-angular-ui/package.json",
-    "infoflux-angular-ui/packages.config",
-    "infoflux-angular-ui/web.config",
-    "infoflux-angular-ui/web.debug.config",
-    "infoflux-angular-ui/web.release.config"
+    "infoflux-angular-ui",
+    "infoflux-angular-ui.sln"
   ],
   "dependencies": {
     "angular": "~1.4.6"
