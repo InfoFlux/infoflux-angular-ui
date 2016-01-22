@@ -1,5 +1,4 @@
 {
-
   "name": "infoflux-angular-ui",
   "main": "dist/if.ui.js",
   "ignore": [
@@ -17,8 +16,7 @@
     "web.debug.config",
     "web.release.config"
   ],
-
-  "private": true,
+  "private": false,
   "dependencies": {
     "angular": "~1.4.6"
   }
