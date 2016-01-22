@@ -1,0 +1,16 @@
+{
+  "name": "infoflux-angular-ui",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_modules",
+    "app",
+    "Content",
+    "Scripts"
+  ],
+  "main": "dist/if.ui.js",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.6"
+  }
+}

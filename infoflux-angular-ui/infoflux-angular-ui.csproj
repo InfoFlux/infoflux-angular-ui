@@ -96,6 +96,12 @@
     <Content Include="Content\Site.min.css">
       <DependentUpon>Site.css</DependentUpon>
     </Content>
+    <Content Include="dist\if.ui.css" />
+    <Content Include="dist\if.ui.js" />
+    <Content Include="dist\if.ui.min.css" />
+    <Content Include="dist\if.ui.min.js" />
+    <Content Include="dist\templates.js" />
+    <Content Include="gulpfile.js" />
     <Content Include="if.ui\if.ui.css">
       <DependentUpon>if.ui.less</DependentUpon>
     </Content>
@@ -183,6 +189,8 @@
     <Content Include="Content\bootstrap\bootstrap.less" />
     <Content Include="Content\bootstrap\badges.less" />
     <Content Include="Content\bootstrap\alerts.less" />
+    <Content Include=".bowerrc" />
+    <Content Include="bower.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -190,6 +198,7 @@
     <Content Include="Content\Site.less" />
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="if.ui\if.ui.less" />
+    <Content Include="package.json" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
