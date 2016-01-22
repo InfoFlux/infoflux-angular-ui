@@ -1,7 +1,7 @@
 {
 
   "name": "infoflux-angular-ui",
-  "main": "dist/if.ui.js",
+  "main": "./dist/if.ui.js",
   "ignore": [
     "node_modules",
     "bower_modules",
