@@ -1,5 +1,8 @@
 {
+
   "name": "infoflux-angular-ui",
+  "version": "0.0.1",
+  "main": "dist/if.ui.js",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -8,7 +11,7 @@
     "Content",
     "Scripts"
   ],
-  "main": "dist/if.ui.js",
+
   "private": true,
   "dependencies": {
     "angular": "~1.4.6"
