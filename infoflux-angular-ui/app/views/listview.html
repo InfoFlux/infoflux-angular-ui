@@ -1,0 +1,72 @@
+﻿<div class="container">
+
+    <div class="row">
+        <h4>Basic Usage</h4>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <h3>Array source - Model property binding</h3>
+            <listview data="countries" ng-model="customer.country" display-member="title"></listview>
+
+        </div>
+        <div class="col-lg-3">
+            <h3>Binded model</h3>
+            <p>customer.country</p>
+            <pre>{{customer.country}}</pre>
+        </div>
+        <div class="col-lg-3">
+            <h3>Customer Data</h3>
+            <pre>{{customer}}</pre>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3">
+            <h3>Basic Usage - Value Member</h3>
+            <listview data="countries2" ng-model="customer2.countryId" display-member="title" value-member="id"></listview>
+
+        </div>
+        <div class="col-lg-3">
+            <h3>Model</h3>
+            <pre>{{customer2.countryId}}</pre>
+        </div>
+        <div class="col-lg-3">
+            <pre>{{customer2}}</pre>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <h4>Multi Select</h4>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <listview data="countries3" ng-model="selectedCountries" display-member="title" multiselect="true"></listview>
+
+        </div>
+        <div class="col-lg-3">
+            <p>Model : {{selectedCountries}}</p>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <h4>Multi Select - Value member</h4>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <listview data="countries4" ng-model="selectedCountries2" display-member="title" multiselect="true" value-member="id"></listview>
+
+        </div>
+        <div class="col-lg-3">
+            <p>Model : {{selectedCountries2}}</p>
+        </div>
+
+
+    </div>
+</div>
+
