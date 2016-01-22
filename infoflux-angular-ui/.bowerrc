@@ -1,3 +1,10 @@
 {
-  "directory": "bower_modules"
+  "directory": "bower_modules",
+  "registry": {
+    "search": [
+      "https://www.myget.org/F/your-feed-name/bower/",
+      "https://bower.herokuapp.com"
+    ],
+    "register": "https://username:password@www.myget.org/F/your-feed-name/bower/"
+  }
 }
